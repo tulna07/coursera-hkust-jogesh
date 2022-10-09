@@ -72,3 +72,9 @@ body {
 .jumbotron h1 + p {
   color: floralwhite !important;
 }
+
+#btn-carousel {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
