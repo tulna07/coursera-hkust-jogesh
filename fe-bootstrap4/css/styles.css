@@ -1,3 +1,10 @@
+:root {
+  --lt-gray: #ddd;
+  --background-dark: #512da8;
+  --background-light: #9575cd;
+  --background-pale: #d1c4e9;
+}
+
 .row-header {
   margin: 0px auto;
   padding: 0px;
@@ -77,4 +84,20 @@ body {
   right: 0;
   bottom: 0;
   position: absolute;
+}
+
+.modal-header {
+  background-color: var(--background-dark);
+}
+
+.modal-title {
+  color: floralwhite;
+}
+
+.modal-header button {
+  color: floralwhite;
+}
+
+.modal-body {
+  background-color: var(--background-pale);
 }
